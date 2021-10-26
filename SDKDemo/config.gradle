@@ -1,0 +1,41 @@
+
+ext {
+    android = [
+            applicationId      : "com.liousdk.qizhiwear.demo",
+            versionCode        : 100,
+            versionName        : "1.0.0",
+            updateAppName      : "qizhi",
+            appId              : "1",
+            isGooglePlayVersion: false
+    ]
+    supports = [
+            isSupportStrava          : false,
+            isSupportTmallGenie      : false,
+            isSupportDiet            : true,
+            isSupportLoginFromQQ     : false,
+            isSupportLoginFromWX     : false,
+            isSupportLoginFromTwitter: false
+    ]
+    otherApiKey = [
+            buglyKey           : "7fca8c552a",
+            Strava_ClientID    : "26929",
+            Strava_ClientSecret: "a432aee41582f96dd45ba7d3de2069b05833f7d0"
+    ]
+    mapApiKey = [
+            apiKeyGaodeMap : "30fadf1a752cb548591b749753b34f33",
+            apiKeyGoogleMap: "AIzaSyDwmewF127UgSSMfcBch9d7mhxJ1R9uDmQ",
+    ]
+    mobApiKey = [
+            MobSDK_appKey    : "20cbe8ce805da",
+            MobSDK_appSecret : "6dd28cb4aa80d3b5e9660a7a8589c7f1",
+
+            Wechat_appKey    : "wx5cf03ed04b9338e2",
+            Wechat_appSecret : "4504d34b0c4475b69ada0c7634b2e4ab",
+
+            QQ_appKey        : "1106159546",
+            QQ_appSecret     : "cipnMmrmr6q4n6OG",
+
+            Twitter_appKey   : "uCamIWihTUcuggYhAWKehp4zD",
+            Twitter_appSecret: "lFSso3KY0y6R8ffKc6xfQL7Q9FC7dNY2XjsBS4Ixb26vvGmQ8q",
+    ]
+}
