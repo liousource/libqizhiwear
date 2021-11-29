@@ -2,8 +2,8 @@
 ext {
     android = [
             applicationId      : "com.liousdk.qizhiwear.demo",
-            versionCode        : 102,
-            versionName        : "1.0.2",
+            versionCode        : 103,
+            versionName        : "1.0.3",
             updateAppName      : "qizhi",
             appId              : "1",
             isGooglePlayVersion: false

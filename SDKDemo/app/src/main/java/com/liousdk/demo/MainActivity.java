@@ -18,14 +18,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitytest_main);
+
+        //同意条款后，初始化SDK中的application
+        MyApplication application = (MyApplication) getApplication();
+        application.init();
+
         btnEnter = findViewById(R.id.btn_app);
         btnEnter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BindAccountActivity.class);
+                intent.putExtra(BindAccountActivity.QIZHI_EXTRA_PHONE, "15688888888");
                 startActivity(intent);
             }
         });
     }
-
 }
