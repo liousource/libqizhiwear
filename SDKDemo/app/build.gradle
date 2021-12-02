@@ -16,7 +16,7 @@ android {
     defaultConfig {
         applicationId rootProject.ext.android.applicationId
         minSdkVersion 23
-        targetSdkVersion 29
+        targetSdkVersion 26
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
         multiDexEnabled true
